@@ -23,9 +23,12 @@ allprojects {
     repositories {
         mavenCentral()
         google()
+        // Added for Pedro Pathing and FTCLib
+        maven { url 'https://jitpack.io' }
     }
 }
 
 repositories {
     mavenCentral()
+    google()
 }
